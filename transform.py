@@ -11,6 +11,10 @@ def transform(df):
     # exemplo de limpeza
     df.dropna(inplace=True)
 
+    df['date'] = pd.to_datetime(df['date'])
+
+    df['valor_formatado'] = df['amount'].map(lambda x: f"R$ {x:,.2f}".replace(',', '_').replace('.', ',').replace('_', '.'))
+
     SILVER_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(SILVER_PATH, index=False)
 
@@ -30,10 +34,7 @@ def business(df):
 
     df = df.copy()
 
-    df['date'] = pd.to_datetime(df['date'])
-
     df['DIA'] = df['date'].dt.day
-
 
     # Criar colunas de tempo de forma vetorizada (mais performático)
     data = df['date']
