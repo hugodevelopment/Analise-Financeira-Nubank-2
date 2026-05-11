@@ -34,19 +34,36 @@ def business(df):
 
     df['DIA'] = df['date'].dt.day
 
-    # Semana da fatura
-    condicoes_semana = [
-        (df['DIA'] >= 17) & (df['DIA'] <= 23),
-        (df['DIA'] >= 24),
-        (df['DIA'] <= 7),
-        (df['DIA'] >= 8) & (df['DIA'] <= 16)
-    ]
 
-    valores_semana = [1, 2, 3, 4]
-    df['SEMANA_FATURA'] = np.select(condicoes_semana, valores_semana, default=0)
+    # Criar colunas de tempo de forma vetorizada (mais performático)
+    data = df['date']
 
-    # MES_FATURA dinâmico
-    df['MES_FATURA'] = df['date'].apply(lambda x: f"{(x + pd.DateOffset(days=15)).strftime('%Y-%m')}")
+    # MÊS abreviado (pt-BR)
+    meses = np.array(['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'])
+    df['MÊS'] = meses[data.dt.month - 1]
+
+    # SEMANA_DO_MÊS (sem float, sem ceil)   
+    df['SEMANA_DO_MÊS'] = ((data.dt.day - 1) // 7) + 1
+
+# Reordenar colunas de forma mais eficiente
+    cols_prioridade = ['MÊS', 'SEMANA_DO_MÊS', ]
+    df = df[
+    cols_prioridade + [c for c in df.columns if c not in cols_prioridade]
+]
+
+    # # Semana da fatura
+    # condicoes_semana = [
+    #     (df['DIA'] >= 17) & (df['DIA'] <= 23),
+    #     (df['DIA'] >= 24),
+    #     (df['DIA'] <= 7),
+    #     (df['DIA'] >= 8) & (df['DIA'] <= 16)
+    # ]
+
+    # valores_semana = [1, 2, 3, 4]
+    # df['SEMANA_FATURA'] = np.select(condicoes_semana, valores_semana, default=0)
+
+    # # MES_FATURA dinâmico
+    # df['MES_FATURA'] = df['date'].apply(lambda x: f"{(x + pd.DateOffset(days=15)).strftime('%Y-%m')}")
 
     GOLD_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(GOLD_PATH, index=False)
