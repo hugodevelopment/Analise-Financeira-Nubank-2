@@ -1,103 +1,128 @@
-MÊS,SEMANA_DO_MÊS,date,title,amount,valor_formatado,DIA
-jan,5,2025-01-30,Supermercado Guanabara,261.5,"R$ 261,50",30
-jan,4,2025-01-28,Renegociação de pendências (28/Janeiro),-650.63,"R$ -650,63",28
-jan,4,2025-01-28,Encerramento de dívida,-54.64,"R$ -54,64",28
-jan,4,2025-01-28,Multa de atraso,19.08,"R$ 19,08",28
-jan,4,2025-01-28,Juros de atraso,27.38,"R$ 27,38",28
-jan,4,2025-01-28,IOF de atraso,8.17,"R$ 8,17",28
-jan,4,2025-01-24,Rio Bel Cosmeticos,64.7,"R$ 64,70",24
-jan,4,2025-01-23,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",23
-jan,4,2025-01-23,Pagamento recebido,-300.0,"R$ -300,00",23
-jan,4,2025-01-22,Supermercado Guanabara,169.97,"R$ 169,97",22
-jan,3,2025-01-21,Saldo em atraso,950.63,"R$ 950,63",21
-jan,3,2025-01-21,Rederj,58.01,"R$ 58,01",21
-jan,3,2025-01-21,Crédito de atraso,-950.63,"R$ -950,63",21
-jan,3,2025-01-17,Amazonprimebr,19.9,"R$ 19,90",17
-jan,3,2025-01-17,"Estorno de ""Amazon Prime Canais""",-29.9,"R$ -29,90",17
-mar,2,2025-03-08,Bazar Variedades Mgg,19.99,"R$ 19,99",8
-fev,4,2025-02-27,Supermercado Guanabara,370.34,"R$ 370,34",27
-fev,4,2025-02-24,Rederj,69.81,"R$ 69,81",24
-fev,4,2025-02-23,Pagamento recebido,-800.97,"R$ -800,97",23
-fev,4,2025-02-22,Supermercado Guanabara,67.89,"R$ 67,89",22
-fev,3,2025-02-17,Amazonprimebr,19.9,"R$ 19,90",17
-fev,3,2025-02-16,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",16
-mar,4,2025-03-27,Supermercado Guanabara,304.04,"R$ 304,04",27
-mar,4,2025-03-24,Rederj,85.92,"R$ 85,92",24
-mar,4,2025-03-24,Pagamento recebido,-774.82,"R$ -774,82",24
-mar,3,2025-03-21,Rederj,39.26,"R$ 39,26",21
-mar,3,2025-03-18,Tim*Tim,66.99,"R$ 66,99",18
-mar,3,2025-03-17,Amazonprimebr,19.9,"R$ 19,90",17
-mar,3,2025-03-16,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",16
-mai,1,2025-05-07,Metro Rj,7.9,"R$ 7,90",7
-abr,4,2025-04-28,Rederj,73.73,"R$ 73,73",28
-abr,4,2025-04-25,Lojas Americanas,15.48,"R$ 15,48",25
-abr,4,2025-04-25,Riocardmais,30.0,"R$ 30,00",25
-abr,4,2025-04-24,Supermercado Guanabara,216.05,"R$ 216,05",24
-abr,4,2025-04-24,Pagamento recebido,-743.0,"R$ -743,00",24
-abr,3,2025-04-20,Amazonprimebr,19.9,"R$ 19,90",20
-abr,3,2025-04-20,Supermercado Guanabara,34.89,"R$ 34,89",20
-abr,3,2025-04-18,Norte Fruti Abolicao,40.55,"R$ 40,55",18
-abr,3,2025-04-17,Rederj,130.03,"R$ 130,03",17
-abr,3,2025-04-17,Amazonprimebr,19.9,"R$ 19,90",17
-abr,3,2025-04-16,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",16
-jul,1,2025-07-04,Mais Mobi,20.0,"R$ 20,00",4
-jun,5,2025-06-29,Supermercado Guanabara,100.89,"R$ 100,89",29
-jun,4,2025-06-26,Campeao,47.62,"R$ 47,62",26
-jun,4,2025-06-24,Multa de atraso,16.81,"R$ 16,81",24
-jun,4,2025-06-24,Pagamento recebido,-837.45,"R$ -837,45",24
-jun,4,2025-06-24,Encerramento de dívida,-20.07,"R$ -20,07",24
-jun,4,2025-06-24,IOF de atraso,3.25,"R$ 3,25",24
-jun,4,2025-06-24,Juros de dívida encerrada,20.07,"R$ 20,07",24
-jun,4,2025-06-23,Crédito de atraso,-837.45,"R$ -837,45",23
-jun,4,2025-06-23,Saldo em atraso,837.45,"R$ 837,45",23
-jun,4,2025-06-22,Rederj,61.35,"R$ 61,35",22
-jun,3,2025-06-20,Amazonprimebr,19.9,"R$ 19,90",20
-jun,3,2025-06-19,Metro Rj,7.9,"R$ 7,90",19
-jun,3,2025-06-18,Supermercado Guanabara,349.98,"R$ 349,98",18
-jun,3,2025-06-17,Riocardmais,25.0,"R$ 25,00",17
-jun,3,2025-06-17,Amazonprimebr,19.9,"R$ 19,90",17
-jun,3,2025-06-17,Shopee *Chenjyacessori - Parcela 1/3,31.12,"R$ 31,12",17
-ago,1,2025-08-03,Prezunic,34.19,"R$ 34,19",3
-jul,5,2025-07-30,Supermercado Guanabara,270.54,"R$ 270,54",30
-jul,5,2025-07-29,Amazon,18.09,"R$ 18,09",29
-jul,4,2025-07-24,Rederj,71.13,"R$ 71,13",24
-jul,4,2025-07-23,Pagamento recebido,-703.73,"R$ -703,73",23
-jul,4,2025-07-22,Supermercado Guanabara,205.17,"R$ 205,17",22
-jul,3,2025-07-21,Amazon,38.45,"R$ 38,45",21
-jul,3,2025-07-20,Amazonprimebr,19.9,"R$ 19,90",20
-jul,3,2025-07-18,Tim*Tim,81.8,"R$ 81,80",18
-jul,3,2025-07-18,Mais Mobi,30.0,"R$ 30,00",18
-jul,3,2025-07-17,Amazonprimebr,19.9,"R$ 19,90",17
-jul,3,2025-07-16,Shopee *Chenjyacessori - Parcela 2/3,31.1,"R$ 31,10",16
-set,1,2025-09-03,Amazon Prime Canais,21.9,"R$ 21,90",3
-ago,4,2025-08-27,Amazonprimebr,19.9,"R$ 19,90",27
-ago,4,2025-08-27,Supermercado Guanabara,349.44,"R$ 349,44",27
-ago,4,2025-08-26,Supermercado Guanabara,21.23,"R$ 21,23",26
-ago,4,2025-08-25,Peixaria Joeldson,43.0,"R$ 43,00",25
-ago,4,2025-08-25,Pagamento recebido,-800.37,"R$ -800,37",25
-ago,3,2025-08-21,Shopee *Oncomercioshop,32.88,"R$ 32,88",21
-ago,3,2025-08-21,Rederj,110.0,"R$ 110,00",21
-ago,3,2025-08-19,Shopee *Rosalelingerie,38.99,"R$ 38,99",19
-ago,3,2025-08-18,Rederj,81.11,"R$ 81,11",18
-ago,3,2025-08-17,Amazonprimebr,19.9,"R$ 19,90",17
-ago,3,2025-08-16,"Estorno de ""Amazonprimebr""",-19.9,"R$ -19,90",16
-ago,3,2025-08-16,Shopee *Chenjyacessori - Parcela 3/3,31.1,"R$ 31,10",16
-ago,3,2025-08-16,Amazon Prime Canais,39.9,"R$ 39,90",16
-out,1,2025-10-03,Amazon Prime Canais,21.9,"R$ 21,90",3
-set,4,2025-09-28,Campeao,30.37,"R$ 30,37",28
-set,4,2025-09-27,Amazonprimebr,19.9,"R$ 19,90",27
-set,4,2025-09-24,Pagamento recebido,-809.35,"R$ -809,35",24
-set,4,2025-09-24,Multa de atraso,16.24,"R$ 16,24",24
-set,4,2025-09-24,Juros de dívida encerrada,19.4,"R$ 19,40",24
-set,4,2025-09-24,IOF de atraso,3.15,"R$ 3,15",24
-set,4,2025-09-24,Encerramento de dívida,-19.4,"R$ -19,40",24
-set,4,2025-09-24,Perfumarialurdes - Parcela 1/2,50.93,"R$ 50,93",24
-set,4,2025-09-23,Saldo em atraso,809.35,"R$ 809,35",23
-set,4,2025-09-23,Crédito de atraso,-809.35,"R$ -809,35",23
-set,4,2025-09-23,Supermercado Guanabara,65.28,"R$ 65,28",23
-set,3,2025-09-21,Supermercado Guanabara,396.38,"R$ 396,38",21
-set,3,2025-09-18,Supermercado Guanabara,66.09,"R$ 66,09",18
-set,3,2025-09-17,Amazonprimebr,19.9,"R$ 19,90",17
-set,3,2025-09-17,Shopee *Policommerce,28.0,"R$ 28,00",17
-set,3,2025-09-17,Rederj,51.63,"R$ 51,63",17
-set,3,2025-09-17,54641504renatada,32.98,"R$ 32,98",17
+MÊS,SEMANA_DO_MÊS,date,title,amount,valor_formatado,DIA,MES_FATURA
+jan,5,2025-01-30,Supermercado Guanabara,261.5,"R$ 261,50",30,2025-02
+jan,4,2025-01-28,Renegociação de pendências (28/Janeiro),-650.63,"-R$ 650,63",28,2025-02
+jan,4,2025-01-28,Encerramento de dívida,-54.64,"-R$ 54,64",28,2025-02
+jan,4,2025-01-28,Multa de atraso,19.08,"R$ 19,08",28,2025-02
+jan,4,2025-01-28,Juros de atraso,27.38,"R$ 27,38",28,2025-02
+jan,4,2025-01-28,IOF de atraso,8.17,"R$ 8,17",28,2025-02
+jan,4,2025-01-24,Rio Bel Cosmeticos,64.7,"R$ 64,70",24,2025-02
+jan,4,2025-01-23,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",23,2025-02
+jan,4,2025-01-23,Pagamento recebido,-300.0,"-R$ 300,00",23,2025-02
+jan,4,2025-01-22,Supermercado Guanabara,169.97,"R$ 169,97",22,2025-02
+jan,3,2025-01-21,Saldo em atraso,950.63,"R$ 950,63",21,2025-02
+jan,3,2025-01-21,Rederj,58.01,"R$ 58,01",21,2025-02
+jan,3,2025-01-21,Crédito de atraso,-950.63,"-R$ 950,63",21,2025-02
+jan,3,2025-01-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-02
+jan,3,2025-01-17,"Estorno de ""Amazon Prime Canais""",-29.9,"-R$ 29,90",17,2025-02
+mar,2,2025-03-08,Bazar Variedades Mgg,19.99,"R$ 19,99",8,2025-03
+fev,4,2025-02-27,Supermercado Guanabara,370.34,"R$ 370,34",27,2025-03
+fev,4,2025-02-24,Rederj,69.81,"R$ 69,81",24,2025-03
+fev,4,2025-02-23,Pagamento recebido,-800.97,"R$ -800,97",23,2025-03
+fev,4,2025-02-22,Supermercado Guanabara,67.89,"R$ 67,89",22,2025-03
+fev,3,2025-02-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-03
+fev,3,2025-02-16,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",16,2025-03
+mar,4,2025-03-27,Supermercado Guanabara,304.04,"R$ 304,04",27,2025-04
+mar,4,2025-03-24,Rederj,85.92,"R$ 85,92",24,2025-04
+mar,4,2025-03-24,Pagamento recebido,-774.82,"R$ -774,82",24,2025-04
+mar,3,2025-03-21,Rederj,39.26,"R$ 39,26",21,2025-04
+mar,3,2025-03-18,Tim*Tim,66.99,"R$ 66,99",18,2025-04
+mar,3,2025-03-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-04
+mar,3,2025-03-16,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",16,2025-04
+mai,1,2025-05-07,Metro Rj,7.9,"R$ 7,90",7,2025-05
+abr,4,2025-04-28,Rederj,73.73,"R$ 73,73",28,2025-05
+abr,4,2025-04-25,Lojas Americanas,15.48,"R$ 15,48",25,2025-05
+abr,4,2025-04-25,Riocardmais,30.0,"R$ 30,00",25,2025-05
+abr,4,2025-04-24,Supermercado Guanabara,216.05,"R$ 216,05",24,2025-05
+abr,4,2025-04-24,Pagamento recebido,-743.0,"R$ -743,00",24,2025-05
+abr,3,2025-04-20,Amazonprimebr,19.9,"R$ 19,90",20,2025-05
+abr,3,2025-04-20,Supermercado Guanabara,34.89,"R$ 34,89",20,2025-05
+abr,3,2025-04-18,Norte Fruti Abolicao,40.55,"R$ 40,55",18,2025-05
+abr,3,2025-04-17,Rederj,130.03,"R$ 130,03",17,2025-05
+abr,3,2025-04-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-05
+abr,3,2025-04-16,Renegociação de pendências (28/Janeiro),226.89,"R$ 226,89",16,2025-05
+jul,1,2025-07-04,Mais Mobi,20.0,"R$ 20,00",4,2025-07
+jun,5,2025-06-29,Supermercado Guanabara,100.89,"R$ 100,89",29,2025-07
+jun,4,2025-06-26,Campeao,47.62,"R$ 47,62",26,2025-07
+jun,4,2025-06-24,Multa de atraso,16.81,"R$ 16,81",24,2025-07
+jun,4,2025-06-24,Pagamento recebido,-837.45,"R$ -837,45",24,2025-07
+jun,4,2025-06-24,Encerramento de dívida,-20.07,"R$ -20,07",24,2025-07
+jun,4,2025-06-24,IOF de atraso,3.25,"R$ 3,25",24,2025-07
+jun,4,2025-06-24,Juros de dívida encerrada,20.07,"R$ 20,07",24,2025-07
+jun,4,2025-06-23,Crédito de atraso,-837.45,"R$ -837,45",23,2025-07
+jun,4,2025-06-23,Saldo em atraso,837.45,"R$ 837,45",23,2025-07
+jun,4,2025-06-22,Rederj,61.35,"R$ 61,35",22,2025-07
+jun,3,2025-06-20,Amazonprimebr,19.9,"R$ 19,90",20,2025-07
+jun,3,2025-06-19,Metro Rj,7.9,"R$ 7,90",19,2025-07
+jun,3,2025-06-18,Supermercado Guanabara,349.98,"R$ 349,98",18,2025-07
+jun,3,2025-06-17,Riocardmais,25.0,"R$ 25,00",17,2025-07
+jun,3,2025-06-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-07
+jun,3,2025-06-17,Shopee *Chenjyacessori - Parcela 1/3,31.12,"R$ 31,12",17,2025-07
+ago,1,2025-08-03,Prezunic,34.19,"R$ 34,19",3,2025-08
+jul,5,2025-07-30,Supermercado Guanabara,270.54,"R$ 270,54",30,2025-08
+jul,5,2025-07-29,Amazon,18.09,"R$ 18,09",29,2025-08
+jul,4,2025-07-24,Rederj,71.13,"R$ 71,13",24,2025-08
+jul,4,2025-07-23,Pagamento recebido,-703.73,"R$ -703,73",23,2025-08
+jul,4,2025-07-22,Supermercado Guanabara,205.17,"R$ 205,17",22,2025-08
+jul,3,2025-07-21,Amazon,38.45,"R$ 38,45",21,2025-08
+jul,3,2025-07-20,Amazonprimebr,19.9,"R$ 19,90",20,2025-08
+jul,3,2025-07-18,Tim*Tim,81.8,"R$ 81,80",18,2025-08
+jul,3,2025-07-18,Mais Mobi,30.0,"R$ 30,00",18,2025-08
+jul,3,2025-07-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-08
+jul,3,2025-07-16,Shopee *Chenjyacessori - Parcela 2/3,31.1,"R$ 31,10",16,2025-08
+set,1,2025-09-03,Amazon Prime Canais,21.9,"R$ 21,90",3,2025-09
+ago,4,2025-08-27,Amazonprimebr,19.9,"R$ 19,90",27,2025-09
+ago,4,2025-08-27,Supermercado Guanabara,349.44,"R$ 349,44",27,2025-09
+ago,4,2025-08-26,Supermercado Guanabara,21.23,"R$ 21,23",26,2025-09
+ago,4,2025-08-25,Peixaria Joeldson,43.0,"R$ 43,00",25,2025-09
+ago,4,2025-08-25,Pagamento recebido,-800.37,"R$ -800,37",25,2025-09
+ago,3,2025-08-21,Shopee *Oncomercioshop,32.88,"R$ 32,88",21,2025-09
+ago,3,2025-08-21,Rederj,110.0,"R$ 110,00",21,2025-09
+ago,3,2025-08-19,Shopee *Rosalelingerie,38.99,"R$ 38,99",19,2025-09
+ago,3,2025-08-18,Rederj,81.11,"R$ 81,11",18,2025-09
+ago,3,2025-08-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-09
+ago,3,2025-08-16,"Estorno de ""Amazonprimebr""",-19.9,"R$ -19,90",16,2025-09
+ago,3,2025-08-16,Shopee *Chenjyacessori - Parcela 3/3,31.1,"R$ 31,10",16,2025-09
+ago,3,2025-08-16,Amazon Prime Canais,39.9,"R$ 39,90",16,2025-09
+out,1,2025-10-03,Amazon Prime Canais,21.9,"R$ 21,90",3,2025-10
+set,4,2025-09-28,Campeao,30.37,"R$ 30,37",28,2025-10
+set,4,2025-09-27,Amazonprimebr,19.9,"R$ 19,90",27,2025-10
+set,4,2025-09-24,Pagamento recebido,-809.35,"R$ -809,35",24,2025-10
+set,4,2025-09-24,Multa de atraso,16.24,"R$ 16,24",24,2025-10
+set,4,2025-09-24,Juros de dívida encerrada,19.4,"R$ 19,40",24,2025-10
+set,4,2025-09-24,IOF de atraso,3.15,"R$ 3,15",24,2025-10
+set,4,2025-09-24,Encerramento de dívida,-19.4,"R$ -19,40",24,2025-10
+set,4,2025-09-24,Perfumarialurdes - Parcela 1/2,50.93,"R$ 50,93",24,2025-10
+set,4,2025-09-23,Saldo em atraso,809.35,"R$ 809,35",23,2025-10
+set,4,2025-09-23,Crédito de atraso,-809.35,"R$ -809,35",23,2025-10
+set,4,2025-09-23,Supermercado Guanabara,65.28,"R$ 65,28",23,2025-10
+set,3,2025-09-21,Supermercado Guanabara,396.38,"R$ 396,38",21,2025-10
+set,3,2025-09-18,Supermercado Guanabara,66.09,"R$ 66,09",18,2025-10
+set,3,2025-09-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-10
+set,3,2025-09-17,Shopee *Policommerce,28.0,"R$ 28,00",17,2025-10
+set,3,2025-09-17,Rederj,51.63,"R$ 51,63",17,2025-10
+set,3,2025-09-17,54641504renatada,32.98,"R$ 32,98",17,2025-10
+nov,2,2025-11-10,"Estorno de ""Amazonprimebr""",-19.9,"R$ -19,90",10,2025-11
+nov,2,2025-11-10,"Estorno de ""Amazon Prime Canais""",-29.9,"R$ -29,90",10,2025-11
+nov,1,2025-11-03,Amazon Prime Canais,29.9,"R$ 29,90",3,2025-11
+out,4,2025-10-27,Rederj,58.2,"R$ 58,20",27,2025-11
+out,4,2025-10-27,Amazonprimebr,19.9,"R$ 19,90",27,2025-11
+out,4,2025-10-25,Campeao,37.19,"R$ 37,19",25,2025-11
+out,4,2025-10-24,IOF de atraso,3.12,"R$ 3,12",24,2025-11
+out,4,2025-10-24,Multa de atraso,16.11,"R$ 16,11",24,2025-11
+out,4,2025-10-24,Pagamento recebido,-802.77,"R$ -802,77",24,2025-11
+out,4,2025-10-23,Saldo em atraso,802.76,"R$ 802,76",23,2025-11
+out,4,2025-10-23,Supermercado Guanabara,46.56,"R$ 46,56",23,2025-11
+out,3,2025-10-19,Campeao,60.84,"R$ 60,84",19,2025-11
+out,3,2025-10-18,Supermercado Guanabara,414.73,"R$ 414,73",18,2025-11
+out,3,2025-10-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-11
+out,3,2025-10-17,Rederj,82.2,"R$ 82,20",17,2025-11
+out,3,2025-10-16,Perfumarialurdes - Parcela 2/2,50.92,"R$ 50,92",16,2025-11
+nov,4,2025-11-25,IOF de atraso,3.07,"R$ 3,07",25,2025-12
+nov,4,2025-11-25,Multa de atraso,15.85,"R$ 15,85",25,2025-12
+nov,4,2025-11-25,Pagamento recebido,-789.78,"R$ -789,78",25,2025-12
+nov,4,2025-11-24,Saldo em atraso,789.78,"R$ 789,78",24,2025-12
+nov,4,2025-11-23,Supermercado Guanabara,518.85,"R$ 518,85",23,2025-12
+nov,3,2025-11-20,Rederj,89.51,"R$ 89,51",20,2025-12
+nov,3,2025-11-19,Drogaria Droga Xiii,43.96,"R$ 43,96",19,2025-12
+nov,3,2025-11-17,Rederj,108.31,"R$ 108,31",17,2025-12
+nov,3,2025-11-17,Amazonprimebr,19.9,"R$ 19,90",17,2025-12

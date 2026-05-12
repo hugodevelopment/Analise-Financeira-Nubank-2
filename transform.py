@@ -51,6 +51,15 @@ def business(df):
     df = df[
     cols_prioridade + [c for c in df.columns if c not in cols_prioridade]
 ]
+    
+    FECHAMENTO = 15
+
+    def calcular_mes_fatura(data):
+        if data.day > FECHAMENTO:
+             return (data + pd.DateOffset(months=1)).to_period('M')
+        return data.to_period('M')
+
+    df['MES_FATURA'] = df['date'].apply(calcular_mes_fatura)
 
     # # Semana da fatura
     # condicoes_semana = [
