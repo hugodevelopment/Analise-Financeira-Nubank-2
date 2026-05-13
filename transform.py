@@ -13,8 +13,13 @@ def transform(df):
 
     df['date'] = pd.to_datetime(df['date'])
 
-    df['valor_formatado'] = df['amount'].map(lambda x: f"R$ {x:,.2f}".replace(',', '_').replace('.', ',').replace('_', '.'))
-
+    
+    #df['amount'] = pd.to_numeric(df['amount'], errors='coerce')
+    df['valor_numerico'] = (df['amount']
+                        .astype(str)
+                        .str.replace('.', '', regex=False)  # Remove ponto de milhar
+                        .str.replace(',', '.', regex=False)) # Troca vírgula decimal por ponto
+                                      
     SILVER_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(SILVER_PATH, index=False)
 
@@ -34,20 +39,20 @@ def business(df):
 
     df = df.copy()
 
-    df['DIA'] = df['date'].dt.day
+    df['Dia'] = df['date'].dt.day
 
     # Criar colunas de tempo de forma vetorizada (mais performático)
     data = df['date']
 
     # MÊS abreviado (pt-BR)
     meses = np.array(['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'])
-    df['MÊS'] = meses[data.dt.month - 1]
+    df['Mes'] = meses[data.dt.month - 1]
 
     # SEMANA_DO_MÊS (sem float, sem ceil)   
-    df['SEMANA_DO_MÊS'] = ((data.dt.day - 1) // 7) + 1
+    df['Semana_do_Mês'] = ((data.dt.day - 1) // 7) + 1
 
-# Reordenar colunas de forma mais eficiente
-    cols_prioridade = ['MÊS', 'SEMANA_DO_MÊS', ]
+    # Reordenar colunas de forma mais eficiente
+    cols_prioridade = ['Mes', 'Semana_do_Mês', ]
     df = df[
     cols_prioridade + [c for c in df.columns if c not in cols_prioridade]
 ]
@@ -60,6 +65,19 @@ def business(df):
         return data.to_period('M')
 
     df['MES_FATURA'] = df['date'].apply(calcular_mes_fatura)
+
+    #renomear colunas de forma mais eficiente 
+    df = df.rename(columns={
+    'Mes': 'mes',
+    'Semana_do_Mês': 'semana_mes',
+    'date': 'data',
+    'title': 'descricao',
+    'amount': 'valor',
+    'valor_numerico': 'valor_numerico',
+    'Dia': 'dia',
+    'MES_FATURA': 'mes_fatura'
+})
+
 
     # # Semana da fatura
     # condicoes_semana = [
