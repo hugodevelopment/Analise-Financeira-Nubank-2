@@ -15,10 +15,10 @@ def transform(df):
 
     
     #df['amount'] = pd.to_numeric(df['amount'], errors='coerce')
-    df['valor_numerico'] = (df['amount']
-                        .astype(str)
-                        .str.replace('.', '', regex=False)  # Remove ponto de milhar
-                        .str.replace(',', '.', regex=False)) # Troca vírgula decimal por ponto
+    #df['valor_numerico'] = (df['amount']
+                       # .astype(str)
+                       # .str.replace('.', '', regex=False)  # Remove ponto de milhar
+                       # .str.replace(',', '.', regex=False)) # Troca vírgula decimal por ponto
                                       
     SILVER_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(SILVER_PATH, index=False)
