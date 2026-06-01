@@ -6,11 +6,11 @@ Projeto de Business Intelligence focado em **análise comportamental de gastos**
 
 ## 💭 O Problema
 
-Faturas de cartão chegam todo mês e geram preocupações sobre o controle dos gastos
+As faturas de cartão chegam todo mês e geram preocupações sobre o controle dos gastos.
 A maioria das pessoas sabe quanto gastou — mas não sabe **por que**,
 **quando** e **em que padrão** os gastos acontecem.
 
-Este projeto nasceu dessa necessidade real: transformar dados brutos
+Este projeto nasceu de uma necessidade real: transformar dados brutos
 de fatura em inteligência financeira automatizada.
 
 ---
@@ -134,11 +134,11 @@ Contribuindo para: Consciência financeira • Identificação de padrões • A
 
 ---
 
-## 👀 Preview
+## 👀 Dashboard
 
-*Dashboard — Página 1: Perfil Comportamental*
 
-<img width="1152" height="648" alt="perfil-comportamental" src="https://github.com/user-attachments/assets/faf3bc66-df0b-4fbf-a725-bf7d861d406e" />
+
+<img width="640" height="360" alt="bi-2" src="https://github.com/user-attachments/assets/37f0c638-dda6-4162-9e9d-848d145dd953" />
 
 ---
 
