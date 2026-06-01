@@ -140,10 +140,6 @@ Contribuindo para: Consciência financeira • Identificação de padrões • A
 
 <img width="1152" height="648" alt="perfil-comportamental" src="https://github.com/user-attachments/assets/faf3bc66-df0b-4fbf-a725-bf7d861d406e" />
 
-*Dashboard — Página 2: Análise Financeira*
-
-<!-- Adicione aqui o print da segunda página -->
-
 ---
 
 ## 📌 Autor
